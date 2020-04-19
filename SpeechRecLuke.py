@@ -6,8 +6,8 @@ import os.path
 
 r = sr.Recognizer()
 m = sr.Microphone()
-api_address = 'http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q='
-city = "Craigavon"
+api_address = 'INSERT_API'
+city = "CITY"
 blank = "''"
 url = api_address + city
 
